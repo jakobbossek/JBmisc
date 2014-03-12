@@ -1,0 +1,8 @@
+Package: helpr
+Title: Different tiny helper functions for R.
+Description: helpr provides some helpful functions, which facilitate the
+    everyday work in R.
+Version: 1.0
+Author: Jakob Bossek <jakob.bossek@tu-dortmund.de>
+Maintainer: Jakob Bossek <jakob.bossek@tu-dortmund.de>
+License: What license is it under?
