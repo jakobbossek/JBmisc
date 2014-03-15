@@ -1,4 +1,4 @@
 library(testthat)
 library(helpr)
 
-test_package("locur")
+test_package("helpr")

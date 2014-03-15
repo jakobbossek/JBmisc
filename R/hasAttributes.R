@@ -1,6 +1,6 @@
 #' Check if given object has certain attributes.
 #'
-#' @param x\cr
+#' @param obj [\code{mixed}]\cr
 #'   Arbitrary R object.
 #' @param attributeNames [\code{character}]\cr
 #'   Vector of strings, i.e., attribute names.
@@ -8,6 +8,6 @@
 #'   \code{TRUE} if object \code{x} contains all attributes from \code{attributeNames}.
 #'   and otherwise \code{FALSE}.
 #' @export
-hasAttributes = function(x, attributeNames) {
-  return(isSubset(attributeNames, getAttributeNames(x)))
+hasAttributes = function(obj, attributeNames) {
+  return(isSubset(attributeNames, getAttributeNames(obj)))
 }

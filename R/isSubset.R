@@ -4,12 +4,17 @@
 #'   Source vector.
 #' @param y [\code{vector}]\cr
 #'   Vector of the same mode as \code{x}.
+#' @param strict [\code{logical(1)}]\cr
+#'   Checks for strict/proper subset relation.
 #' @return [\code{logical(1)}]
 #'   \code{TRUE} if each element of \code{x} is also contained in \code{y}, i. e.,
 #'   if \code{x} is a subset of \code{y} and \code{FALSE} otherwise.
 #' @export
-isSubset = function(x, y) {
+isSubset = function(x, y, strict = FALSE) {
   if (length(x) == 0)
     return(TRUE)
-  return(all(x %in% y))
+  res = all(x %in% y)
+  if (strict)
+    res = res & !isSubset(y, x)
+  return(res)
 }

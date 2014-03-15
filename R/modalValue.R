@@ -13,7 +13,7 @@
 #' @param na.rm [\code{logical(1)}]\cr
 #'   Logical value indicating how do deal with NA-values. \code{TRUE}, the default value,
 #'   makes the functions get rid of NAs. Otherwise they are treated as a regular value.
-#' @param [\code{vector}]
+#' @return [\code{vector}]
 #'   Vector of most frequent values or NA.
 #' @export
 modalValue = function(x, type = "unique", na.rm = TRUE) {

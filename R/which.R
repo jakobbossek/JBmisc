@@ -1,5 +1,5 @@
 #' More conventient function to get the index of the minimal index in a numeric vector.
-#' (base::which.min only returns the first position of the minimum value).
+#' (\code{base::which.min} only returns the first position of the minimum value).
 #'
 #' @param x [\code{vector}]\cr
 #'   Source vector with numeric values.

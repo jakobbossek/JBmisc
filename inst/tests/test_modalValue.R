@@ -1,3 +1,5 @@
+context("modalValue")
+
 test_that("function modalValue runs as expected", {
   x = c(1:10, 10)
   m = modalValue(x, type = "unique")
