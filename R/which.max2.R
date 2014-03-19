@@ -12,6 +12,12 @@
 #'   Position(s) of the occurence(s) of the maximal value.
 #' @export
 which.max2 = function(x, type = "first") {
+  if (!is.vector2(x))
+    stop("which.max2 expects a vector as input.")
+  if (length(x) == 0)
+    return(NA)
+  if (is.list(x))
+    x = unlist(x)
   idx = which(x == max(x))
   return(get(idx, type))
 }
