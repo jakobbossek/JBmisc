@@ -1,4 +1,4 @@
-Package: helpr
+Package: JBmisc
 Title: Different tiny helper functions for R.
 Description: helpr provides some helpful functions, which facilitate the
     everyday work in R.
