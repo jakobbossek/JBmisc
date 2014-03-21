@@ -9,5 +9,5 @@
 #'   Source vector with permutated elements.
 #' @export
 permutate = function(x) {
-  return(sample(x))
+  return(getRandomElements(x, size = length(x)))
 }
