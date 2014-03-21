@@ -1,3 +1,5 @@
+library(methods)
+library(devtools)
 library(testthat)
 
 if (interactive()) {
