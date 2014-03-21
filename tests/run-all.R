@@ -1,4 +1,4 @@
 library(testthat)
-library(helpr)
+library(JBmisc)
 
-test_package("helpr")
+test_package("JBmisc")

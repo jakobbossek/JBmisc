@@ -1,11 +1,9 @@
-library(methods)
-library(devtools)
 library(testthat)
 
 if (interactive()) {
   load_all(".")
 } else {
-  library(helpr)
+  library(JBmisc)
 }
 
 test_dir("inst/tests")

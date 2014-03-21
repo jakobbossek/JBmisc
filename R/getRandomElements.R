@@ -1,6 +1,6 @@
 #' Samples a random element.
 #'
-#' Similar to \link[base]{\code{sample}}, but with the
+#' Similar to \code{\link[base]{sample}}, but with the
 #' small exception, that giving a single value x as input is treated as a single vector
 #' and not like 1:x.
 #' @param x [\code{vector}]\cr
