@@ -1,8 +1,8 @@
-\name{isSubset}
-\alias{isSubset}
+\name{is.subset}
+\alias{is.subset}
 \title{Check subset relation on two vectors.}
 \usage{
-isSubset(x, y, strict = FALSE)
+is.subset(x, y, strict = FALSE)
 }
 \arguments{
   \item{x}{[\code{vector}]\cr Source vector.}

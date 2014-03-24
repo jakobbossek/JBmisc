@@ -9,5 +9,5 @@
 #'   and otherwise \code{FALSE}.
 #' @export
 hasAttributes = function(obj, attributeNames) {
-  return(isSubset(attributeNames, getAttributeNames(obj)))
+  return(is.subset(attributeNames, getAttributeNames(obj)))
 }
