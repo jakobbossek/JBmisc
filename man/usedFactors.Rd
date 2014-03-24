@@ -1,6 +1,6 @@
 \name{usedFactors}
 \alias{usedFactors}
-\title{Determines the number of factor levels of a factor type vector
+\title{Determines the factor levels of a factor type vector
 that are actually occuring in a given vector.}
 \usage{
 usedFactors(x)
@@ -12,7 +12,7 @@ usedFactors(x)
 [\code{character}] Character vector of used levels.
 }
 \description{
-Determines the number of factor levels of a factor type
-vector that are actually occuring in a given vector.
+Determines the factor levels of a factor type vector that
+are actually occuring in a given vector.
 }
 

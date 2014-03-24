@@ -1,4 +1,4 @@
-#' Determines the number of factor levels of a factor type vector
+#' Determines the factor levels of a factor type vector
 #' that are actually occuring in a given vector.
 #'
 #' @param x [\code{vector}]\cr
