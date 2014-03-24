@@ -1,4 +1,5 @@
 export(getAttributeNames)
+export(getBootstrapSamples)
 export(getRandomElements)
 export(hasAttributes)
 export(is.vector2)
