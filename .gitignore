@@ -1,7 +1,6 @@
 .Rproj.user
 .Rhistory
 .RData
-.Rbuildignore
 JBmisc.Rcheck
 JBmisc.Rproj
 playground.R
