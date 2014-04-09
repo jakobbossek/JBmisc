@@ -24,17 +24,11 @@ which.min2 = function(x, type = "first") {
 
 # helper for which.{min,max}2
 get = function(x, type) {
-  #FIXME: sample generates vector 1:x if x has length one!
-  # the below workaround is aweful! Maybe write function bootstrap,
-  # with functionality similar to sample, but handling vectors of length
-  # one as expected!
-  if (length(x) == 1 & type == "random")
-    x = c(x,x)
   switch(type,
     "all" = x,
     "first" = x[1],
     "last" = x[length(x)],
-    "random" = sample(x, size=1))
+    "random" = getRandomElements(x, size = 1L))
 }
 
 # simply returns all available options for 'type' parameter in which.{min,max}2
