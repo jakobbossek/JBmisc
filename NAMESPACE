@@ -1,3 +1,4 @@
+export("%is%")
 export(getAttributeNames)
 export(getBootstrapSamples)
 export(getRandomElements)
